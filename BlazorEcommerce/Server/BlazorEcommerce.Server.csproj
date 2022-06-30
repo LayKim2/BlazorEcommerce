@@ -23,9 +23,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Using Include="Microsoft.EntityFrameworkCore"/>
-		<Using Include="BlazorEcommerce.Shared"/>
-		<Using Include="BlazorEcommerce.Server.Data"/>
+		<Using Include="Microsoft.EntityFrameworkCore" />
+		<Using Include="BlazorEcommerce.Shared" />
+		<Using Include="BlazorEcommerce.Server.Data" />
 	</ItemGroup>
 
 

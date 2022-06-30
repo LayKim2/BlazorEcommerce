@@ -15,6 +15,11 @@ namespace BlazorEcommerce.Shared
         public string ImageUrl { get; set; } = string.Empty;
 
         [Column(TypeName="decimal(18,2)")]
-        public decimal Price { get; set; } 
+        public decimal Price { get; set; }
+
+        // category model
+        public Category? category { get; set; }
+        public int CategoryId { get; set; }
+
     }
 }
